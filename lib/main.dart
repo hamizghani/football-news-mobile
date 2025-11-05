@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:football_news_mobile/menu.dart';
+import 'package:football_news_mobile/screens/menu.dart';
 
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         // the application has a purple toolbar. Then, without quitting the app,
         // try changing the seedColor in the colorScheme below to Colors.green
         // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
+        // reloa  d" button in a Flutter-supported IDE, or press "r" if you used
         // the command line to start the app).
         //
         // Notice that the counter didn't reset back to zero; the application
