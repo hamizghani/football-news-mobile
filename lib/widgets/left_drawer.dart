@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:football_news_mobile/screens/menu.dart';
 import 'package:football_news_mobile/screens/newslist_form.dart';
+import 'package:football_news_mobile/screens/news_entry_list.dart';
 
 
 class LeftDrawer extends StatelessWidget {
@@ -54,6 +55,18 @@ class LeftDrawer extends StatelessWidget {
                 context,
                 MaterialPageRoute(
                   builder: (context) => const NewsFormPage(),
+                ),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.list),
+            title: const Text('See Football News'),
+            onTap: () {
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const NewsEntryListPage(),
                 ),
               );
             },
